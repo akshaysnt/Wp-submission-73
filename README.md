@@ -4,6 +4,7 @@ web programming project
 Topic:- SSC (10th) Marksheet.
 The above mentioned repository contains the html page made for ssc (10th marksheet)with inline css applied onto it.
 The pages are validated using java script.
+
 The Database is named 'ssc' and the tables created in sql are as follows:
 
 1)personalinfo:- Attributes are (firstname,middlename,lastname,mothername,gender,birthdate)
