@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>ssc form</title>
+
+<link rel="shortcut icon" type="image/png" href="akt.png"></link>
+
+<script src="myvalidate.js"> </script>
+</head>
+<body>
+
+<style>
+
+div{
+margin-left:5%;
+margin-right:5%;
+
+body{
+border:3px solid red;
+background-color:#FFE1E5;
+}
+
+h1{
+font-family: Old English Text MT;
+}
+
+th{
+text-align:left;
+}
+
+
+
+}
+
+</style>
+
+<table width=100%>
+<tr>
+<td><img src="akt.png"></img></td>
+<div><td><h1><center>Maharashtra State Board Of Secondary And</center><br>
+<center>Higher Secondary Education,Pune<center></h1></td></div>
+</tr>
+</table>
+
+<hr>
+
+<div>
+<form action="" name="ssc_form">
+<fieldset>
+<legend>Personal Information</legend>
+<table bgcolor="white">
+
+<tr>
+<th>First Name</th>
+<td>:</td>
+<td><input type="text" name="fn"  /></td>
+</tr>
+
+<tr>
+<th>Middle Name</th>
+<td>:</td>
+<td><input type="text" name="mn"  /></td>
+</tr>
+
+<tr>
+<th>Last Name</th>
+<td>:</td>
+<td><input type="text" name="ln" /></td>
+</tr>
+
+<tr>
+<th>Mother's Name</th>
+<td>:</td>
+<td><input type="text" name="msn" /></td>
+</tr>
+
+
+<tr>
+<th>Gender</th>
+<td>:</td>
+<td><input type="radio" name="gen1" value="f">Female
+    <input type="radio" name="gen1" value="m">Male
+</td>
+</tr>
+
+<tr>
+<th>BirthDate</th>
+<td>:</td>
+<td><input type="date" name="bday" ></td>
+</tr>
+
+
+</table>
+
+<fieldset>
+<legend>Address Details</legend>
+<table bgcolor="white">
+<tr>
+<th>Address</th>
+<td>:</td>
+<td><textarea rows="5" cols="50" name="add" /></textarea></td>
+</tr>
+
+<tr>
+<th>Pincode</th>
+<td>:</td>
+<td><input type="number" name="pin" pattern="" /></td>
+</tr>
+
+<tr>
+<th>District</th>
+<td>:</td>
+<td><select>
+<option value="au">aurangabad</option>
+<option value="ak">akola</option>
+<option value="am">amravati</option>
+<option value="bi">beed</option>
+<option value="bh">bhandara</option>
+<option value="bu">buldhana</option>
+<option value="ch">chandrapur</option>
+<option value="dh">dhule</option>
+<option value="ga">gadchiroli</option>
+<option value="go">gondia</option>
+<option value="hi">hingoli</option>
+<option value="jg">jalgaon</option>
+<option value="jn">jalna</option>
+<option value="ko">kolhapur</option>
+<option value="la">latur</option>
+<option value="mc">mumbai city</option>
+<option value="mu">mumbai suburban</option>
+<option value="ng">nagpur</option>
+<option value="nd">nanded</option>
+<option value="nb">nandurbar</option>
+<option value="ns">nashik</option>
+<option value="os">osmanabad</option>
+<option value="pa">parbhani</option>
+<option value="pu">pune</option>
+<option value="rg">raigad</option>
+<option value="rt">ratnagiri</option>
+<option value="sn">sangli</option>
+<option value="st">satara</option>
+<option value="si">sindhudurg</option>
+<option value="so">solapur</option>
+<option value="th">Thane</option>
+
+
+
+</select></td>
+</tr>
+
+<tr>
+<th>Nationality</th>
+<td>:</td>
+<td><input type="radio" name="n1" value="ind">Indian
+    <input type="radio" name="n1" value="other">Other
+</td>
+</tr>
+</table>
+</fieldset>
+
+
+<fieldset>
+<legend>School Info </legend>
+<table bgcolor="white">
+
+<tr>
+<th>school Name</th>
+<td>:</td>
+<td><textarea rows="5" cols="50" name="add" />ABC</textarea></td>
+</tr>
+
+<tr>
+<th>Address of school</th>
+<td>:</td>
+<td><textarea rows="5" cols="50" name="add" />xyz</textarea></td>
+</tr>
+
+<tr>
+<th>Pincode</th>
+<td>:</td>
+<td><input type="number" name="pin" /></td>
+</tr>
+
+<tr>
+<th>Division</th>
+<td>:</td>
+<td>
+<select>
+
+<option value="AU">Aurangabad</option>
+<option value="MU">Mumbai</option>
+<option value="NG">Nagpur</option>
+<option value="NS">Nashik</option>
+<option value="PU">Pune</option>
+
+</select></td>
+</tr>
+
+<tr>
+<th>District</th>
+<td>:</td>
+<td><select>
+<option value="au">aurangabad</option>
+<option value="ak">akola</option>
+<option value="am">amravati</option>
+<option value="bi">beed</option>
+<option value="bh">bhandara</option>
+<option value="bu">buldhana</option>
+<option value="ch">chandrapur</option>
+<option value="dh">dhule</option>
+<option value="ga">gadchiroli</option>
+<option value="go">gondia</option>
+<option value="hi">hingoli</option>
+<option value="jg">jalgaon</option>
+<option value="jn">jalna</option>
+<option value="ko">kolhapur</option>
+<option value="la">latur</option>
+<option value="mc">mumbai city</option>
+<option value="mu">mumbai suburban</option>
+<option value="ng">nagpur</option>
+<option value="nd">nanded</option>
+<option value="nb">nandurbar</option>
+<option value="ns">nashik</option>
+<option value="os">osmanabad</option>
+<option value="pa">parbhani</option>
+<option value="pu">pune</option>
+<option value="rg">raigad</option>
+<option value="rt">ratnagiri</option>
+<option value="sn">sangli</option>
+<option value="st">satara</option>
+<option value="si">sindhudurg</option>
+<option value="so">solapur</option>
+<option value="th">Thane</option>
+
+</select></td>
+</tr>
+
+</table>
+</fieldset>
+
+
+
+
+
+
+
+
+</fieldset>
+<br>
+<fieldset>
+<legend>Marks</legend>
+ENTER SSC MARKS:-
+<table width="100%" border="1 px solid black">
+
+<tr>
+<th>03 English (1st LANG)</th>
+<td>:</td>
+<td><input type="number" name="e" /></td>
+</tr>
+
+<tr>
+<th>15 Hindi (2/3 LANG)</th>
+<td>:</td>
+<td><input type="number" name="h" /></td>
+</tr>
+
+<tr>
+<th>16 Marathi (2/3 LANG)</th>
+<td>:</td>
+<td><input type="number" name="m" /></td>
+</tr>
+
+<tr>
+<th>71 Mathematics</th>
+<td>:</td>
+<td><input type="number" name="mt" /></td>
+</tr>
+
+<tr>
+<th>72 Science & Technology</th>
+<td>:</td>
+<td><input type="number" name="s" /></td>
+</tr>
+
+<tr>
+<th>73 Social Sciences</th>
+<td>:</td>
+<td><input type="number" name="ss" /></td>
+</tr>
+
+<tr>
+<th> K7 Information Technology(Grade)</th>
+<td>:</td>
+<td><input type="text"  pattern="[A,B,C,D]" name="d"/></td>
+</tr>
+
+<tr>
+<th>P1 Health and Physical Education(Grade)</th>
+<td>:</td>
+<td><input type="text"  pattern="[A,B,C,D]" name="h" /></td>
+</tr>
+
+<tr>
+<th>P6Social Service(Grade)</th>
+<td>:</td>
+<td><input type="text"  pattern="[A,B,C,D]" name="sv" /></td>
+</tr>
+
+<tr>
+<th>R6 Personality Development(Grade)</th>
+<td>:</td>
+<td><input type="text"  pattern="[A,B,C,D]" name="pd" /></td>
+</tr>
+
+<tr>
+<th>38 Environment Education (Grade)</th>
+<td>:</td>
+<td><input type="text"  pattern="[A,B,C,D]" name="ee"/></td>
+</tr>
+
+
+</table>
+</fieldset>
+
+
+
+
+
+
+<br>
+
+<fieldset>
+<legend>REQUIRED</legend>
+<table>
+<tr>
+<th>Seat No.</th>
+<td>:</td>
+<td><input type="number" name="sn"></th>
+</tr>
+<tr>
+<th>Centre No.</th>
+<td>:</td>
+<td><input type="number" name="cn"></th>
+</tr>
+<tr>
+<th>School Info.</th>
+<td>:</td>
+<td><input type="number" name="scn"></th>
+</tr>
+</table>
+</fieldset>
+<br>
+
+
+<center><button type="submit" name="sub" value="Submit" onclick="myFunction()" />Submit
+<button type="reset" name="reset" value="reset"/>Reset</center>
+</form>
+</div>
+</body>
+</html>
